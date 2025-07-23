@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num1, nume2;
+
+    printf("Digite o primeiro numero: ");
+    scanf("%d", & num1);
+    printf("Digite o segundo numero: ");
+    scanf("%d", & num2);
+
+    if (num1 % nume2 ==0){
+        printf("Os numeros são multiplos entre si.");
+    }else{
+        printf("Os numeros não são multiplos entre si.");
+    }
+}
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num1, num2, som, mul, sub , div, resto;
+
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &num1);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &num2);
+
+    som = num1 + num2;
+    sub = num1 - num2;
+    mul = num1 * num2;
+    div = num1/num2;
+    resto = num1%num2;
+
+    printf("Som: %d + %d = %d\n", num1, num2, soma);
+    printf("Sub: %d - %d = %d\n", num1, num2, sub);
+    printf("Mul: %d * %d = %d\n", num1, num2, mult);
+    printf("Div: %d / %d = %d\n", num1, num2, div);
+    printf("Resto: %d %% %d = %d\n", num1, num2, resto);
+
+}
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num;
+
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &num);
+
+    if(num%2==0){
+        printf("Resultado: é um numero par.");
+    }else{
+        printf("Resultado: é um numero impar.");
+    }
+}
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+        printf("Total = 100%%\n);
+        printf:(desconto1  = 17%%\n);
+        printf:(desconto2  = 15%%\n);
+        printf:(-----------\n);
+        printf:(valor final  = 68%%");
+
+    return 0;
+}
+
+
+
+
